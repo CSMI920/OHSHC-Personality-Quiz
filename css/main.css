@@ -1,0 +1,83 @@
+
+body{
+   background-color: #fddadf; 
+   font-family: "Space Mono", monospace;
+   font-size: 16px;
+}
+
+/* main page */
+.header-wrapper{
+    justify-content: center;
+    text-align: center;    
+    padding: 75px;
+    max-width: auto;
+    flex-direction: column;
+}
+
+.header{
+font-family: "Pixelify Sans", sans-serif;
+font-size: 50px;
+}
+
+.quiz-wrapper{
+    justify-content: center;
+    text-align: center;    
+    padding: 100px;
+    flex-direction: column;
+}
+
+ 
+/* questions */
+.question-1{
+font-family: "Pixelify Sans", sans-serif;
+font-size: 24px;
+margin: 2px auto 50px auto;
+}
+
+
+/* choice */
+.choice-wrapper{
+    justify-content: center;
+    text-align: center;    
+    padding: 50px;
+    flex-direction: column;
+}
+
+.choice-button {
+    background-color: #000000;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    border-radius: 99px;
+    padding: 14px 20px;
+    margin: 0 auto 15px auto;
+    width: 70%;
+    min-width: 140px;
+    max-width: 300px;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+.choice-button:hover {
+    background-color: #f7e8ea; 
+    color: #000000;
+}
+
+/* results! */
+.results-button {
+    background-color: #000000;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    border-radius: 99px;
+    padding: 12px 10px;
+    margin: 0 auto 15px auto;
+    width: 70%;
+    min-width: 140px;
+    max-width: 182px;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+.results-button:hover {
+    background-color: #f7e8ea; 
+    color: #000000;
+}
