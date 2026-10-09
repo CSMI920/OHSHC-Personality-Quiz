@@ -14,7 +14,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/wee8axp.css">
+  <link rel="stylesheet" href="https://use.typekit.net/bsd1ims.css">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="icon" href="icon.png">
@@ -28,69 +29,486 @@
 
 <body>
 
-<div class="header-wrapper">
-  <div>  
-    <h1 class="header"> Which Ouran Host Are You?</h1>
-  </div>
+<div class="hero-wrapper">
   <div>
-    <p>Answer the questions to discover which Host Club member 
-    matches your personality!</p>
+    <img class="hero-img" src="./img/intro-img.png" alt="">
+  </div>
+  <div id="hero">  
+    <a href="#question-1" style="text-decoration: none;">
+    <p class="choice-button parent-wrapper">start!</p>  
+    </a>
   </div> 
 </div>
 
+<div class="empty-space"></div>
+
+
   <!-- Question#1 -->
-<div class="choice-wrapper">
-  <h2 class="question-1"> Your friend is having a terrible day. What do you do? </h2>
- <div>
+<div id="question-1" class="parent-wrapper">
+      <h2 class="question-wrapper"> A genie grants you one wish. Which are you picking? </h2>
   <form>
-    <div>
-
+    <div class="choice-wrapper">
       <div class="choice-button">
         <label>
           <input type="radio" name="question-1">
-          Try to cheer them up!
+          With the right amount of money, almost any other wish becomes achievable
         </label>
       </div>
 
       <div class="choice-button">
         <label>
           <input type="radio" name="question-1">
-          Calmly asked them what's wrong & asked if they need help
+          A lifetime supply of food >:D
         </label>
       </div>
 
       <div class="choice-button">
         <label>
           <input type="radio" name="question-1">
-          Crack jokes to distract them from their problems
+          May everyone in my circle find peace, love + happiness!
         </label>
       </div>
 
       <div class="choice-button">
         <label>
           <input type="radio" name="question-1">
-          Sit & listen to them talk; just sit in silence with them
+          To be able to do whatever I want whenever I want; No rules, no restrictions
         </label>
+      </div>
+
+      <div class="direction-wrapper">
+        <a href="#question-2" style="text-decoration: none;"> 
+         <p class="command-button">next!</p>  
+        </a>
+      </div>
+
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="empty-space"></div>
+
+
+  <!-- Question#2 -->
+<div id="question-2" class="parent-wrapper">
+      <h2 class="question-wrapper"> Which is your most defining quality? 
+      </h2>
+<div>
+
+  <form>
+    <div class="choice-wrapper">
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-2">
+          I'm very loyal to those around me
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-2">
+          Extraverted; I'm extremely social, & high energy!
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-2">
+          Detail-Oriented; I tend to notice things other people overlook
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-2">
+          Pragmatic; I'm grounded, practical, and unbothered by superficiality
+        </label>
+      </div>
+
+      <div class="direction-wrapper">
+        <a href="#question-1" style="text-decoration: none;">
+         <p class="command-button">back!</p>  
+        </a>
+        <a href="#question-3" style="text-decoration: none;"> 
+         <p class="command-button">next!</p>  
+        </a>
       </div>
 
     </div>
   </form>
 </div>
 
+<div class="empty-space"></div>
 
-
-
-
-
-
-
-
-
+  <!--Question#3-->
+<div id="question-3" class="parent-wrapper">
+      <h2 class="question-wrapper"> Which is your biggest pet peeve?
+      </h2>
 <div>
-  <button class="results-button" id="result-button">
-      See My Result
-  </button>
+
+  <form>
+    <div class="choice-wrapper">
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-3">
+          Being told what to do is annoying because why are micromanaging me? Leave me alone!
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-3">
+           I hate when someone eats the last of the leftovers, especially when I've been thinking it about it all day :c
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-3">
+          When someone says they're fine when it's painfully obvious that they aren't
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-3">
+          People who make promises they don't intend to keep
+        </label>
+      </div>
+
+      <div class="direction-wrapper">
+        <a href="#question-2" style="text-decoration: none;">
+         <p class="command-button">back!</p>  
+        </a>
+        <a href="#question-4" style="text-decoration: none;"> 
+         <p class="command-button">next!</p>  
+        </a>
+      </div>
+
+    </div>
+  </form>
 </div>
+
+<div class="empty-space"></div>
+
+<!--Question#4-->
+<div id="question-4" class="parent-wrapper">
+      <h2 class="question-wrapper"> Which sounds like the best type of vacation?
+      </h2>
+<div>
+
+  <form>
+    <div class="choice-wrapper">
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-4">
+          A small town situation, nowhere crazy; Quiet, scenic & good food!
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-4">
+          NEW YORK CITY! There would be so much to do & we'd never run out of things to do        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-4">
+          A beautiful European countryside villa, somewhere in France or Italy        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-4">
+          Back to the MOTHERLAND! I love my culture & I miss (or, would like to meet) my family overseas       </label>
+      </div>
+
+      <div class="direction-wrapper">
+        <a href="#question-3" style="text-decoration: none;">
+         <p class="command-button">back!</p>  
+        </a>
+        <a href="#question-5" style="text-decoration: none;"> 
+         <p class="command-button">next!</p>  
+        </a>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="empty-space"></div>
+
+<!--Question#5-->
+<div id="question-5" class="parent-wrapper">
+      <h2 class="question-wrapper"> Which is more important to you, friends or family?
+      </h2>
+<div>
+
+  <form>
+    <div class="choice-wrapper">
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-5">
+          Friends        
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-5">
+          Family  
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-5">
+          Neither
+        </label>
+      </div>
+
+      <div class="direction-wrapper">
+        <a href="#question-4" style="text-decoration: none;">
+         <p class="command-button">back!</p>  
+        </a>
+        <a href="#question-6" style="text-decoration: none;"> 
+         <p class="command-button">next!</p>  
+        </a>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="empty-space"></div>
+
+<!--Question#6-->
+<div id="question-6" class="parent-wrapper">
+      <h2 class="question-wrapper"> Which is more important to you, friends or family?
+      </h2>
+<div>
+
+  <form>
+    <div class="choice-wrapper">
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-6">
+          Friends        
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-6">
+          Family  
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-6">
+          Neither
+        </label>
+      </div>
+
+      <div class="direction-wrapper">
+        <a href="#question-5" style="text-decoration: none;">
+         <p class="command-button">back!</p>  
+        </a>
+        <a href="#question-7" style="text-decoration: none;"> 
+         <p class="command-button">next!</p>  
+        </a>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="empty-space"></div>
+
+<!--Question#7-->
+<div id="question-7" class="parent-wrapper">
+      <h2 class="question-wrapper"> Which of these sounds like the perfect romantic partner?
+      </h2>
+<div>
+
+  <form>
+    <div class="choice-wrapper">
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-7">
+            When I'm doing work or studying, I prefer white-noise. It helps me focus.        
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-7">
+          Alternative Rock
+        </label>
+      </div>
+
+   <div class="choice-button">
+        <label>
+          <input type="radio" name="question-7">
+          "Baton Rouge's Official #1 for <u>Hip-Hop and R&B</u>" Max 94.1, if ykyk "        
+        </label>
+      </div>
+
+       <div class="choice-button">
+        <label>
+          <input type="radio" name="question-7">
+          I freaking love k-pop! I'm a Ride or Die stan for _________ !!        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-7">
+            When I'm doing work or studying, I prefer white-noise. It helps me focus.        
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-7">
+            EDM. You just gotta feel the beats brah     
+        </label>
+      </div>
+
+   <div class="choice-button">
+        <label>
+          <input type="radio" name="question-7">
+          Orchestral Music or wtv...        
+        </label>
+      </div>
+
+       <div class="choice-button">
+        <label>
+          <input type="radio" name="question-7">
+          Indie Sleezly, Lemon Squeezy
+          </label>
+      </div>
+
+      <div class="direction-wrapper">
+        <a href="#question-6" style="text-decoration: none;">
+         <p class="command-button">back!</p>  
+        </a>
+        <a href="#question-8" style="text-decoration: none;"> 
+         <p class="command-button">next!</p>  
+        </a>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="empty-space"></div>
+
+<!--Question#8-->
+<div id="question-8" class="parent-wrapper">
+      <h2 class="question-wrapper"> 
+        You just landed a job as a server at a restaurant. How are you earning those tips?
+      </h2>
+<div>
+
+  <form>
+    <div class="choice-wrapper">
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-8">
+          Be polite, just try to do my job right, nothing too crazy
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-8">
+          Be charming, making sure everyone's comfortable, and giving them an experience they'll want to come back for
+        </label>
+      </div>
+
+   <div class="choice-button">
+        <label>
+          <input type="radio" name="question-8">
+          I'd be super friendly! And if someone looks like they're having a bad day, I'd try to cheer them up a little
+        </label>
+      </div>
+
+       <div class="choice-button">
+        <label>
+          <input type="radio" name="question-8">
+          I'd be super efficient; Keeping the service smooth would be best for the customers, my coworkers, & my pockets
+        </label>
+      </div>
+
+      <div class="direction-wrapper">
+        <a href="#question-7" style="text-decoration: none;">
+         <p class="command-button">back!</p>  
+        </a>
+        <a href="#question-9" style="text-decoration: none;"> 
+         <p class="command-button">next!</p>  
+        </a>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="empty-space"></div>
+
+<!--Question#9-->
+<div id="question-9" class="parent-wrapper">
+      <h2 class="question-wrapper"> 
+      Okay last question! If your life was an anime, which of these genres would it be?
+      </h2>
+<div>
+
+  <form>
+    <div class="choice-wrapper">
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-9">
+          Action & Adventure 
+        </label>
+      </div>
+
+      <div class="choice-button">
+        <label>
+          <input type="radio" name="question-9">
+          Fantasy & Sci-Fi
+        </label>
+      </div>
+
+   <div class="choice-button">
+        <label>
+          <input type="radio" name="question-9">
+          Romance 
+        </label>
+      </div>
+
+       <div class="choice-button">
+        <label>
+          <input type="radio" name="question-9">
+          Slice of Life
+        </label>
+      </div>
+
+      <div class="direction-wrapper">
+        <a href="#question-8" style="text-decoration: none;">
+         <p class="command-button">back!</p>  
+        </a>
+        <a href="thank-you.html" style="text-decoration: none;"> 
+         <p class="command-button">submit!</p>  
+        </a>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="empty-space"></div>
 
 
   <script src="js/main.js"></script>
